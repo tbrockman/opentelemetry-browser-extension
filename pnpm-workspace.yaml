@@ -1,4 +1,5 @@
 packages:
+  - "vendored/plasmo"
   - "vendored/plasmo/cli/*"
   - "vendored/plasmo/core/*"
   - "vendored/plasmo/packages/*"
