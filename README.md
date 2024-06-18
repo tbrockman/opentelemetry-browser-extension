@@ -36,7 +36,7 @@ A [Plasmo](https://docs.plasmo.com/)-based browser extension that automatically 
 
 ## Browser compatibility
 
-This extension relies on the use of `chrome.scripting.executeScript({ ... , world: 'MAIN' })`. Luckily, this seems to be supported in every browser except Firefox, where the functionality is currently availabe in the lastest nightly build (128).
+This extension relies on the use of `chrome.scripting.executeScript({ ... , world: 'MAIN' })`. Luckily, this seems to be supported in every browser except Firefox, where the functionality is currently availabe in nightly builds (>= 128).
 
 ## Developing
 

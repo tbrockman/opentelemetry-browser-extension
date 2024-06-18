@@ -4,7 +4,7 @@
   "version": "0.0.7",
   "description": "An extension for instrumenting webpages using OpenTelemetry",
   "author": "Theodore Brockman <iam@theo.lol>",
-  "packageManager": "pnpm@8.14.0",
+  "packageManager": "pnpm@9.0.6",
   "scripts": {
     "preinstall": "pnpm submodule:update && pnpm install:plasmo && pnpm build:run-p && pnpm build:vendored",
     "submodule:update": "git submodule update --init --recursive",
